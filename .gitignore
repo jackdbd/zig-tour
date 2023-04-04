@@ -1,7 +1,14 @@
-node_modules
-.DS_Store
-dist
-*.local
+# environment variables
+.envrc
+
+# dependencies
+node_modules/
+
+# build directory
+dist/
+
+# ignore the slides exported as pdf
+assets/*.pdf
+
+# built presentation
 index.html
-.remote-assets
-components.d.ts
