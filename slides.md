@@ -12,12 +12,14 @@ css: unocss
 defaults:
   layout: center
 # enable pdf downloading in SPA build, can also be a custom url
-download: true
+download: false
 # persist drawings in exports and build
 drawings:
   persist: false
+# Exporting to PDF or PNG requires Playwright for rendering.
+# You will therefore need to install playwright-chromium
 # https://sli.dev/guide/exporting.html
-exportFilename: 'zig-tour'
+# exportFilename: 'zig-tour'
 highlighter: shiki
 htmlAttrs:
   dir: 'ltr'
