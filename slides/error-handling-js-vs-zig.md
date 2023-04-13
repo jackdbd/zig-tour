@@ -24,7 +24,7 @@ const main = async () => {
   try {
     fn()
   } catch (ex) {
-    console.log(ex)
+    console.trace(ex)
     console.log("message", ex.message)
     console.log("stack trace", ex.stack)
   }
