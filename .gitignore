@@ -9,6 +9,3 @@ dist/
 
 # ignore the slides exported as pdf
 assets/*.pdf
-
-# built presentation
-index.html
