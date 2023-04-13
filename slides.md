@@ -51,7 +51,7 @@ src: ./slides/why-not-other-languages.md
 ---
 
 ---
-src: ./slides/meme.md
+src: ./slides/meme-vince.md
 ---
 
 ---
@@ -167,11 +167,11 @@ src: ./slides/memory-allocators.md
 ---
 
 ---
-src: ./slides/reflection.md
+src: ./slides/comptime.md
 ---
 
 ---
-src: ./slides/comptime.md
+src: ./slides/reflection.md
 ---
 
 ---
@@ -180,4 +180,8 @@ src: ./slides/learning-material.md
 
 ---
 src: ./slides/outro.md
+---
+
+---
+src: ./slides/meme-cat.md
 ---

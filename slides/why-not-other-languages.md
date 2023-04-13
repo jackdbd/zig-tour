@@ -19,8 +19,8 @@ text="Why Zig When There is Already C++, D, and Rust?" />
 
 **Rust**
 
-- Complex, ownership and lifetimes are hard to understand
 - <Anchor href="https://twitter.com/rust_foundation/status/1644132378858729474" text="Questionable policies" />
+- Complex, ownership and lifetimes are hard to understand
 
 </Transform>
 
@@ -32,4 +32,6 @@ Explain what ZeroMQ is. And why C is a better candidate than C++ for this kind o
 Consider what happens when **initialisation** of an object can fail. Constructors have no return values, so failure can be reported only by throwing an exception. However, I've decided not to use exceptions.
 
 Moreover, even if initialisation wasn't a problem, **termination** definitely is. You can't really throw exceptions in the destructor. Not because of some self-imposed artificial restrictions but because if the destructor is invoked in the process or unwinding the stack and it happens to throw an exception, it crashes the entire process.
+
+In C, preprocessor macros transform your program **before** actual compilation.
 -->

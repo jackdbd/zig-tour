@@ -7,10 +7,15 @@ Good course on <Anchor
   text="Garbage Collection Algorithms — Dmitry Soshnikov" 
   alt="course on garbage collection algorithms by Dmitry Soshnikov" />.
 
-<Quote 
-  text="When, how, and whether garbage collection occurs is down to the implementation of any given JavaScript engine. Any behavior you observe in one engine may be different in another engine, in another version of the same engine, or even in a slightly different situation with the same version of the same engine." 
+<Citation
   citeHref="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry"
-  citeText="FinalizationRegistry on mdn web docs" />
+  citeText="FinalizationRegistry on mdn web docs">
+  <template v-slot:quote>
+    <p slot="quote">
+    When, how, and whether garbage collection occurs is down to the implementation of any given JavaScript engine. Any behavior you observe in one engine may be different in another engine, in another version of the same engine, or even in a slightly different situation with the same version of the same engine.
+    </p>
+  </template>
+</Citation>
 
 In Rust c’e’ ma e’ una knightly. [^1]
 

@@ -5,7 +5,7 @@ layout: default
 
 - <Anchor href="https://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/intro.html" text="Java Native Interface (JNI)" />
 
-The [Android NDK](https://developer.android.com/ndk/guides) uses the JNI. Watch <Anchor href="https://archive.fosdem.org/2021/schedule/event/zig_android/" text="Create an Android Application with Zig" />
+The <Anchor href="https://developer.android.com/ndk/guides" text="Android NDK" /> uses the JNI. Watch <Anchor href="https://archive.fosdem.org/2021/schedule/event/zig_android/" text="Create an Android Application with Zig" />
 
 - <Anchor href="https://openjdk.org/projects/panama/" text="Project Panama" /> (Java 19+)
 

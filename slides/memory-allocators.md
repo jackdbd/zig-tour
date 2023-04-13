@@ -5,7 +5,9 @@ layout: two-cols
   href="https://github.com/ziglang/zig/blob/master/lib/std/heap.zig" 
   text="std.heap" /></h1>
 
-Memory allocators in <code class="inline-code">std/heap/*.zig</code> and <code class="inline-code">std/heap.zig</code>:
+<div>
+  <p>Memory allocators in <code class="inline-code">std/heap.zig</code>:</p>
+</div>
 
 - <code class="inline-code">std.heap.ArenaAllocator</code>
 - <code class="inline-code">std.heap.FixedBufferAllocator</code>
@@ -24,7 +26,9 @@ Memory allocators in <code class="inline-code">std/heap/*.zig</code> and <code c
   href="https://github.com/ziglang/zig/blob/master/lib/std/testing.zig" 
   text="std.testing" /></h1>
 
-Memory allocators in std/testing/failing_allocator.zig std/testing.zig:
+<div>
+  <p>Memory allocators in <code class="inline-code">std/testing.zig</code>:</p>
+</div>
 
 - <code class="inline-code">std.testing.allocator</code>
 - <code class="inline-code">std.testing.FailingAllocator</code>

@@ -102,6 +102,7 @@ textarea {
 }
 
 .logs-wrapper {
+  border-radius: 0.25em;
   outline: 0.15rem solid var(--color-alabaster);
   width: 100%;
 }
@@ -113,7 +114,7 @@ textarea {
 
 <template>
   <div>
-    <p>Paste some zig code in the <code class="inline-code">textarea</code> below and <button class="btn" @click="onClick">{{ btnLabel }}</button> to format it using <code class="inline-code">lib.wasm</code>.</p>
+    <p>Paste some unformatted zig code in the <code class="inline-code">textarea</code> below and <button class="btn" @click="onClick">{{ btnLabel }}</button> to format it using <code class="inline-code">lib.wasm</code>.</p>
     <textarea rows="6" cols="80">{{ zigCode }}</textarea>
     <div class="logs-wrapper">
       <p v-for="statement in logs">{{ statement }}</p>

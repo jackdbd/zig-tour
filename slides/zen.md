@@ -1,10 +1,13 @@
 # The zen of Zig 🪷
 
-<Quote
-  author="Andrew Kelley" 
-  text="C, but with the problems fixed." 
+<Citation
+  author="Andrew Kelley"
   citeHref="https://youtu.be/Gv2I7qTux7g?t=333"
-  citeText="The Road to Zig 1.0" />
+  citeText="The Road to Zig 1.0">
+  <template v-slot:quote>
+    <p slot="quote">C, but with the problems fixed.</p>
+  </template>
+</Citation>
 
 Type <code class="inline-code">zig zen</code> and this is what you get:
 

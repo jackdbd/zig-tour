@@ -3,7 +3,10 @@ layout: default
 ---
 <h1>WebAssembly <WebAssemblyLogo /></h1>
 
-Zig supports building for WebAssembly <Anchor href="https://ziglang.org/documentation/master/#Freestanding" text="out of the box" />.
+<div>
+  <p>Zig supports building for WebAssembly <Anchor href="https://ziglang.org/documentation/master/#Freestanding" text="out of the box" />.
+  </p>
+</div>
 
 <Transform :scale="0.75">
 

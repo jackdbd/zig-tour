@@ -13,7 +13,7 @@ pub fn foo() !u32 {
 }
 ```
 
-Not even in recursive functions:
+Even in recursive functions.
 
 ```text
 const MyError = error{

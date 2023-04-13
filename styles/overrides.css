@@ -1,3 +1,7 @@
 .slidev-layout.two-columns {
   gap: 1rem !important;
 }
+
+.slidev-layout blockquote {
+  padding: 0.5em !important;
+}
