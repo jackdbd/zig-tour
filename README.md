@@ -2,6 +2,8 @@
 
 Presentazione per [pisa.dev](https://pisa.dev/).
 
+https://zig-tour.vercel.app/
+
 ## Installation
 
 ```sh

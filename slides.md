@@ -63,6 +63,10 @@ src: ./slides/zen.md
 ---
 
 ---
+src: ./slides/keywords.md
+---
+
+---
 src: ./slides/what-zig-leaves-out.md
 ---
 
