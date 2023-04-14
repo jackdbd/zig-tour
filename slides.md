@@ -1,25 +1,19 @@
 ---
 # https://sli.dev/custom/#frontmatter-configures
-# https://sli.dev/custom/directory-structure.html
-# Try CSS here:
+# Try CSS classes here:
 # https://unocss.dev/interactive/
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-# background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
 # class: 'text-center'
 css: unocss
 defaults:
   layout: center
-# enable pdf downloading in SPA build, can also be a custom url
-download: false
+download: 'https://raw.githubusercontent.com/jackdbd/zig-tour/main/assets/zig-tour.pdf'
 # persist drawings in exports and build
 drawings:
   persist: false
 # Exporting to PDF or PNG requires Playwright for rendering.
 # You will therefore need to install playwright-chromium
 # https://sli.dev/guide/exporting.html
-# exportFilename: 'zig-tour'
+exportFilename: 'zig-tour'
 highlighter: shiki
 htmlAttrs:
   dir: 'ltr'
@@ -32,6 +26,8 @@ info: |
   Learn more about Zig at [ziglang.org](https://ziglang.org/).
 # show line numbers in code blocks
 lineNumbers: true
+# https://sli.dev/guide/presenter-mode.html
+presenter: true
 src: ./slides/intro.md
 theme: default
 # theme: seriph

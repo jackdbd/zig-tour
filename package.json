@@ -6,19 +6,20 @@
     "dev": "slidev --open",
     "export:pdf": "slidev export --with-toc --output assets/zig-tour",
     "nuke": "rm -rf node_modules package-lock.json",
-    "view:pdf": "atril assets/zig-tour.pdf",
-    "serve": "python3 -m http.server 8080 --directory ./dist"
+    "serve": "python3 -m http.server 8080 --directory ./dist",
+    "view:pdf": "atril assets/zig-tour.pdf"
   },
   "dependencies": {
-    "@slidev/cli": "^0.40.6",
+    "@iconify-json/logos": "^1.1.24",
+    "@iconify-json/ri": "^1.1.7",
+    "@iconify-json/twemoji": "^1.1.11",
+    "@iconify-json/uim": "^1.1.5",
+    "@slidev/cli": "^0.40.10",
     "@slidev/theme-bricks": "^0.0.2",
     "@slidev/theme-default": "^0.21.2",
     "@slidev/theme-seriph": "^0.21.3"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.24",
-    "@iconify-json/ri": "^1.1.7",
-    "@iconify-json/twemoji": "^1.1.11",
-    "@iconify-json/uim": "^1.1.5"
+    "playwright-chromium": "^1.32.3"
   }
 }

@@ -4,8 +4,5 @@
 # dependencies
 node_modules/
 
-# build directory
+# build directory that will be deployed
 dist/
-
-# ignore the slides exported as pdf
-assets/*.pdf
