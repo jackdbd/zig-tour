@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Using libraries
+# How to use libraries?
 
 <div>
 Current status: a bit messy. <Anchor 

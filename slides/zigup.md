@@ -1,7 +1,10 @@
-# zigup
+---
+layout: default
+---
+# How to get zig?
 
 <div>
-  <p>Download and manage zig compilers with <Anchor href="https://github.com/marler8997/zigup" text="zigup" alt="zigup repo on GitHub" />.
+  <p>Download and manage zig compilers with <Anchor href="https://github.com/marler8997/zigup" text="zigup" alt="zigup repo on GitHub" />
   </p>
 </div>
 

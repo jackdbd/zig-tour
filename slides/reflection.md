@@ -3,7 +3,7 @@ layout: default
 ---
 # Compile-time type reflection
 
-<Transform :scale="0.75">
+<Transform scale="0.75">
 
 ```text {all|13|16-19|all}
 // demo-reflection.zig

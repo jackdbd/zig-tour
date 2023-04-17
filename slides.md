@@ -155,6 +155,10 @@ src: ./slides/c-interop-step-4.md
 ---
 
 ---
+src: ./slides/translate-c.md
+---
+
+---
 src: ./slides/calling-zig-from-higher-level-languages.md
 ---
 
@@ -191,11 +195,19 @@ src: ./slides/arrays-vs-slices.md
 ---
 
 ---
+src: ./slides/compilation-targets.md
+---
+
+---
 src: ./slides/build-modes.md
 ---
 
 ---
-src: ./slides/compilation-targets.md
+src: ./slides/cool-projects.md
+---
+
+---
+src: ./slides/meme-cat.md
 ---
 
 ---
@@ -208,10 +220,6 @@ src: ./slides/setup-vscode.md
 
 ---
 src: ./slides/using-libraries.md
----
-
----
-src: ./slides/cool-projects.md
 ---
 
 ---
@@ -240,8 +248,4 @@ src: ./slides/how-do-i-learn-zig.md
 
 ---
 src: ./slides/outro.md
----
-
----
-src: ./slides/meme-cat.md
 ---

@@ -12,7 +12,7 @@ layout: default
 - better error handling
 - extend it with higher level abstractions (e.g. slices instead of pointers)
 
-**How do do it?**
+**How to do it?**
 
 - <Anchor href="https://www.nmichaels.org/zig/wrap-sodium.html" text="Wrapping a C Library with Zig" />
 - <Anchor href="https://tiehu.is/blog/zig1" text="Iterative Replacement of C with Zig" />
@@ -20,12 +20,15 @@ layout: default
 
 **Examples:**
 
+- <Anchor href="https://github.com/guidorice/libgeos.zig" text="libgeos.zig" />
 - <Anchor href="https://github.com/michal-z/zig-gamedev/tree/main/libs/zgui" text="zgui" />
-- <Anchor href="https://github.com/michal-z/zig-gamedev/tree/main/libs/zstbi" text="zstbi" />
+- <Anchor href="https://github.com/jackdbd/zig-cairo" text="zig-cairo" />
 - <Anchor href="https://github.com/vrischmann/zig-sqlite" text="zig-sqlite" />
+- <Anchor href="https://github.com/fubark/zig-v8" text="zig-v8" />
+- <Anchor href="https://github.com/michal-z/zig-gamedev/tree/main/libs/zstbi" text="zstbi" />
 
 </Transform>
 
 <!--
-Notes
+I need to update zig-cairo when the package manager is ready. But also I need to understand whether it makes sense to use cairo when there is skia.
 -->

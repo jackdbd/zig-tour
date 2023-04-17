@@ -4,7 +4,7 @@ layout: default
 <h1>WebAssembly <WebAssemblyLogo /></h1>
 
 <div>
-  <p>Zig supports building for WebAssembly <Anchor href="https://ziglang.org/documentation/master/#Freestanding" text="out of the box" />.
+  <p>Zig supports building for WebAssembly <Anchor href="https://ziglang.org/documentation/master/#Freestanding" text="out of the box" />
   </p>
 </div>
 

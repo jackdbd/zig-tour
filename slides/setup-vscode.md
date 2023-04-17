@@ -1,4 +1,4 @@
-# Setup VS Code
+# How to setup VS Code for Zig?
 
 Just one line.
 
