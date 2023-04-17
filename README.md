@@ -30,7 +30,7 @@ The `dist` directory will be automatically deployed to Vercel on each `git push`
 
 ## PDF export
 
-Slidev allows [exporting the slides to a PDF](https://sli.dev/guide/exporting.html#pdf). This feature relies on [Playwright](https://playwright.dev/) and requires [playwright-chromium](https://www.npmjs.com/package/playwright-chromium) to work. Since I did not want to install Playwright when building on Vercel (so deployments are faster), I declared it as a dev dependency and set `npm install --production` as the Vercel `installCommand` in `vercel.json`.
+Slidev allows [exporting the slides to a PDF](https://sli.dev/guide/exporting.html#pdf). This feature relies on [Playwright](https://playwright.dev/) and requires [playwright-chromium](https://www.npmjs.com/package/playwright-chromium) to work. Since I did not want to install Playwright when building on Vercel (so deployments are faster), I declared it as a dev dependency and set `npm install --omit=dev` as the Vercel `installCommand` in `vercel.json`.
 
 Run this command to export the slides to `assets/zig-tour.pdf`:
 

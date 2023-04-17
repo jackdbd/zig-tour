@@ -1,6 +1,5 @@
 ---
 layout: cover
-# layout: fact
 ---
 <h1 class="">A <span class="color:zig">tour</span> of Zig <ZigLogo /></h1>
 

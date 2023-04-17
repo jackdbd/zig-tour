@@ -1,3 +1,6 @@
+---
+layout: two-cols
+---
 # Executables: dynamic vs static
 
 todo

@@ -39,6 +39,8 @@ layout: default
 </v-click>
 
 <!--
+Ok, jokes aside, here is why Zig is worth learning.
+
 C does not describe **how the computer works**, it describes how the **C abstract machine** works.
 
 **Runtime**, **virtual machine**, and **abstract machine** are different words for the same fundamental thing. But they've since gained different connotations, due to non-essential variance in different implementations of these ideas.

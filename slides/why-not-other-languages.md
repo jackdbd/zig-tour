@@ -1,6 +1,6 @@
 # Why not C / C++ / Rust?
 
-<Transform scale="1.0">
+<Transform scale="0.85">
 
 <Anchor 
 href="https://ziglang.org/learn/why_zig_rust_d_cpp/" 
@@ -16,6 +16,7 @@ text="Why Zig When There is Already C++, D, and Rust?" />
 
 - Footguns everywhere
 - Preprocessor macros
+- Cleanup code can be <Anchor href="https://youtu.be/Gv2I7qTux7g?t=1752" text="really messy" />
 
 **Rust**
 
@@ -25,6 +26,9 @@ text="Why Zig When There is Already C++, D, and Rust?" />
 </Transform>
 
 <!--
+I can't say much about Go. I wrote only a few hundred lines of Go.
+
+Linus Torvalds' quote about C++: C++ is a horrible language
 The author of ZeroMQ did NOT use C++ exceptions, but in the constructor/destructur you kind of have to use them.
 
 Explain what ZeroMQ is. And why C is a better candidate than C++ for this kind of fault-tolerant software.

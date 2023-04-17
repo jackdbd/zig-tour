@@ -28,5 +28,5 @@ Type <code class="inline-code">zig zen</code> and this is what you get:
 ```
 
 <!--
-some notes about the zen of zig here
+Incremental improvements vs Rewrite in Rust
 -->

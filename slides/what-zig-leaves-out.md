@@ -17,5 +17,5 @@ layout: cover
 </Citation>
 
 <!--
-Notes
+Let's see a couple of features that Zig purposely leaves out.
 -->

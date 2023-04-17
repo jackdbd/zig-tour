@@ -91,11 +91,71 @@ src: ./slides/error-handling-tips.md
 ---
 
 ---
+src: ./slides/while-1.md
+---
+
+---
+src: ./slides/while-2.md
+---
+
+---
+src: ./slides/for-1.md
+---
+
+---
+src: ./slides/for-2.md
+---
+
+---
+src: ./slides/comptime-defined-types.md
+---
+
+---
 src: ./slides/dynamic-vs-static.md
 ---
 
 ---
 src: ./slides/software-reuse.md
+---
+
+---
+src: ./slides/c-interop-intro.md
+---
+
+---
+src: ./slides/c-interop-step-0.md
+---
+
+---
+src: ./slides/c-interop-step-1.md
+---
+
+---
+src: ./slides/c-interop-step-2.md
+---
+
+---
+src: ./slides/c-interop-step-3-a.md
+---
+
+---
+src: ./slides/c-interop-step-3-b.md
+---
+
+---
+src: ./slides/c-interop-step-3-c.md
+---
+
+---
+src: ./slides/c-interop-step-3-d.md
+---
+
+---
+src: ./slides/c-interop-step-4.md
+---
+
+---
+src: ./slides/calling-zig-from-higher-level-languages.md
 ---
 
 ---
@@ -175,7 +235,7 @@ src: ./slides/reflection.md
 ---
 
 ---
-src: ./slides/learning-material.md
+src: ./slides/how-do-i-learn-zig.md
 ---
 
 ---

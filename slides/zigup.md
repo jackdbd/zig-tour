@@ -28,4 +28,7 @@ zigup default 0.10.1
 
 Double-check with <code class="inline-code">zig version</code>.
 
-<!-- my notes about zigup here -->
+<!--
+Similar to nvm, volta or asdf
+https://asdf-vm.com/
+-->

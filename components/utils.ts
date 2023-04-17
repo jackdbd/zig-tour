@@ -4,6 +4,7 @@ const reddit = /^https:\/\/www\.reddit\.com\/r\/.*$/;
 const rust_docs = /^https:\/\/doc\.rust-lang\.org\/.*$/;
 const twitter = /^https:\/\/twitter\.com\/.*$/;
 const youtube = /^https:\/\/youtu\.be\/.*$/;
+const youtube_com = /^https:\/\/www\.youtube\.com.*$/;
 const zig_docs = /^https:\/\/ziglang\.org\/.*$/;
 const zig_news = /^https:\/\/zig\.news\/.*$/;
 
@@ -48,7 +49,7 @@ export const isTwitter = (s: string) => {
 };
 
 export const isYouTube = (s: string) => {
-  if (s.match(youtube)) {
+  if (s.match(youtube) || s.match(youtube_com)) {
     return true;
   } else {
     return false;
