@@ -1,6 +1,9 @@
+---
+layout: default
+---
 # How to setup VS Code for Zig?
 
-Just one line.
+<Transform scale="1">
 
 Install the VS Code extension <Anchor href="https://marketplace.visualstudio.com/items?itemName=ziglang.vscode-zig" text="ziglang.vscode-zig" /> and declare it in your <code class="inline-code">.vscode/extensions.json</code>
 
@@ -16,6 +19,8 @@ If you prefer, you can also download zls from <Anchor
   href="https://github.com/zigtools/zls" 
   text="zigtools/zls" 
   alt="Zig Language Server (zls) repo on GitHub" /> and compile it yourself.
+
+</Transform>
 
 <!--
 Zig Language Server (zls) implements Microsoft's Language Server Protocol for Zig in Zig.

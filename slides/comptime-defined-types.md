@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<h1>compile-time defined types</h1>
+<h1>Compile-time defined types</h1>
+
+<Transform scale="0.85">
 
 ```text
 const std = @import("std");
@@ -29,3 +31,9 @@ pub fn Int(comptime signedness: std.builtin.Signedness, comptime bit_count: u16)
     });
 }
 ```
+
+</Transform>
+
+<!--
+Notes
+-->

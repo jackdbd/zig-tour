@@ -3,6 +3,8 @@ layout: default
 ---
 # How to use libraries?
 
+<Transform scale="0.85">
+
 <div>
 Current status: a bit messy. <Anchor 
   href="https://www.reddit.com/r/Zig/comments/rf6crq/whats_the_proper_way_to_installuse_library/" 
@@ -18,10 +20,12 @@ Current solutions:
 - git submodules
 - just copy the source files in your project
 
-The official package manager is near:
+The official package manager is almost here:
 
 - <Anchor href="https://devlog.hexops.com/2023/zig-0-11-breaking-build-changes/" text="Zig tips: v0.11 std.build API / package manager changes"/>
 - <Anchor href="https://github.com/ziglang/zig/issues/14307" text="build system terminology update: package, project, module, dependency (issue #14307)" />
+
+</Transform>
 
 <!--
 At the moment is a bit messy but soon it will be better.

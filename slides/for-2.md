@@ -39,6 +39,8 @@ pub fn main() void {
 
 <h1>Output</h1>
 
+<Transform scale="0.85">
+
 ```sh
 debug: items is { -1, 0, 1 }
 
@@ -53,6 +55,8 @@ debug: value.* has type i32 and is 1
 
 debug: items is { 0, 1, 2 }
 ```
+
+</Transform>
 
 <!--
 We can use a **capture** in a `for` loop. If the captured value is null, the for exits automatically.

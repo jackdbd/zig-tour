@@ -3,7 +3,9 @@ layout: two-cols
 ---
 <h1>Defining errors in JS</h1>
 
-<div><p>Don't. Or do it only once.</p></div>
+<Transform scale="0.85">
+
+<p>Don't. Or do it only once.</p>
 
 <Citation
   author="nodebestpractices"
@@ -16,11 +18,15 @@ layout: two-cols
 
 Example: Hapi web apps/APIs use <Anchor href="https://hapi.dev/module/boom/" text="Boom" />.
 
+</Transform>
+
 ::right::
 
 <h1>Defining errors in Zig</h1>
 
-<div><p>Use an <Anchor href="https://ziglang.org/documentation/0.10.1/#Error-Set-Type" text="Error Set"/>.</p></div>
+<Transform scale="0.85">
+
+<p>Use an <Anchor href="https://ziglang.org/documentation/0.10.1/#Error-Set-Type" text="Error Set"/>.</p>
 
 ```text
 const NumberNotInRangeError = error{
@@ -37,9 +43,10 @@ The return type of a Zig function that might fail is:
 
 Zig errors cannot have a payload.
 
-<p><Anchor href="https://github.com/ziglang/zig/issues/2647" text="Some people would want it" />.</p>
+- <Anchor href="https://github.com/ziglang/zig/issues/2647" text="Some people would want it" />
+- <Anchor href="https://www.reddit.com/r/Zig/comments/wqnd04/my_reasoning_for_why_zig_errors_shouldnt_have_a/" text="Some others would not" />
 
-<p><Anchor href="https://www.reddit.com/r/Zig/comments/wqnd04/my_reasoning_for_why_zig_errors_shouldnt_have_a/" text="Some others would not" />.</p>
+</Transform>
 
 <!--
 Boom errors contain additional payload and methods for returning HTTP status codes in a consistent way.

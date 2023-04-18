@@ -1,15 +1,18 @@
 ---
 layout: default
 ---
-# Links da sistemare
+# Links and stuff
 
-todo
+WIP
 
 <Transform scale="0.5">
 
+Executables: dynamic vs static
+https://blog.wesleyac.com/posts/how-i-run-my-servers
+
 https://demo.sli.dev/composable-vue/1
 
-Carini i numeri qui.
+Nice numbers, maybe use them for bullet points.
 https://prisma-talk.netlify.app/12
 
 https://github.com/ziglang/zig/wiki/Community
@@ -19,8 +22,7 @@ https://ziglearn.org/chapter-1/#structs
 
 <Anchor 
   href="https://youtu.be/3DxjZmLBizI" 
-  text="3 things you might like about Zig" 
-  alt="3 things you might like about Zig" />
+  text="3 things you might like about Zig" />
 
 https://zig.news/toxi/zig-projects-im-working-on-2704
 
@@ -28,24 +30,9 @@ https://zig.news/lupyuen/build-an-lvgl-touchscreen-app-with-zig-38lm
 
 https://github.com/capy-ui/capy
 
-Prova questo smallest echo binary (Linux only)
+Try compiling this (Linux only)
 https://blog.mandejan.nl/posts/smallest-echo.html
 
-## features Zig purposely leave out
-
-1. operator overloading
-1. method overloading
-1. RAII (relevant?)
-
-## core features
-
-1. error handling
-1. explicit memory management. Pick your own memory allocator
-1. does not link libc by default. Pick your own libc
-
-## advanced features
-
-1. reflection
-1. comptime
-
 </Transform>
+
+<!-- Notes -->

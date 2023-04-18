@@ -1,37 +1,66 @@
-# Memory allocation
+---
+# layout: default
+layout: two-cols
+---
+# Explicit allocations
 
-Esempio di GObject e cairo. Ecco perche' secondo me e' meglio che la memory allocation sia esplicita in un low level language.
+<Transform scale="0.85">
 
-Good course on <Anchor 
+Explicit memory management is hard, right? Not necessarily.
+
+- <Anchor 
+  href="https://youtu.be/c0g3S_2QxWM" 
+  text="Code for Game Developers - Anatomy of a Memory Allocation (Jorge Rodriguez)" />
+- <Anchor 
+  href="https://youtu.be/MvDUe2evkHg" 
+  text="Introduction to General Purpose Allocation (Casey Muratori)" />
+
+Understanding a generational garbage collector like Orinoco is much harder.
+
+- <Anchor href="https://youtu.be/Scxz6jVS4Ls" text="Orinoco: The new V8 Garbage Collector (Peter Marshall)" />
+- <Anchor 
   href="https://dmitrysoshnikov.teachable.com/p/essentials-of-garbage-collectors" 
   text="Garbage Collection Algorithms — Dmitry Soshnikov" 
-  alt="course on garbage collection algorithms by Dmitry Soshnikov" />.
+  alt="course on garbage collection algorithms by Dmitry Soshnikov" />
 
-<Citation
-  citeHref="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry"
-  citeText="FinalizationRegistry on mdn web docs">
-  <template v-slot:quote>
-    <p slot="quote">
-    When, how, and whether garbage collection occurs is down to the implementation of any given JavaScript engine. Any behavior you observe in one engine may be different in another engine, in another version of the same engine, or even in a slightly different situation with the same version of the same engine.
-    </p>
-  </template>
-</Citation>
+</Transform>
 
-In Rust c’e’ ma e’ una knightly. [^1]
+::right::
 
-<Anchor 
-  href="https://doc.rust-lang.org/std/alloc/trait.Allocator.html" 
-  text="Trait std::alloc::Allocator" 
-  alt="Trait std::alloc::Allocator in the Rust documentation" />
+# Allocator interface
 
-Jorge Rodriguez's <Anchor 
-  href="https://youtu.be/c0g3S_2QxWM" 
-  text="Code for Game Developers - Anatomy of a Memory Allocation" 
-  alt="Code for Game Developers - Anatomy of a Memory Allocation on YouTube" />.
+<Transform scale="0.85">
 
-Casey Muratori's <Anchor 
-  href="https://youtu.be/MvDUe2evkHg" 
-  text="Introduction to General Purpose Allocation" 
-  alt="Introduction to General Purpose Allocation on YouTube" />. At 27:45 he starts implementing an arena allocator.
+In Zig, functions which need to allocate accept an <code class="inline-code">Allocator</code> parameter.
 
-[^1]: [This slide is not endorsed by the Rust Foundation](https://twitter.com/rust_foundation/status/1644132378858729474)
+<p>
+  The memory allocator interface is defined in <Anchor 
+  href="https://github.com/ziglang/zig/blob/master/lib/std/mem/Allocator.zig" 
+  text="std/mem/Allocator.zig" 
+  alt="Zig std.mem module" /> and <Anchor 
+  href="https://github.com/ziglang/zig/blob/master/lib/std/mem.zig" 
+  text="std/mem.zig" 
+  alt="Zig std.mem module" />.
+</p>
+
+- <Anchor 
+  href="https://youtu.be/vHWiDx_l4V0" 
+  text="What's a Memory Allocator Anyway? - Benjamin Feng" 
+  alt="Benjamin Feng explains what a memory allocator is, and showcases various memory allocators in Zig" />
+- <Anchor 
+  href="https://www.lagerdata.com/articles/testing-memory-allocation-failures-with-zig" 
+  text="Testing memory allocation failures with Zig" />
+- <Anchor 
+  href="https://ziglang.org/documentation/master/#Choosing-an-Allocator" 
+  text="Choosing an Allocator" />
+
+This is a good idea. In fact, others are taking notes:
+
+- <Anchor href="https://github.com/fitzgen/bumpalo" text="fitzgen/bumpalo" />
+- <Anchor href="https://doc.rust-lang.org/std/alloc/trait.Allocator.html" text="Trait std::alloc::Allocator" />
+
+</Transform>
+
+<!--
+At 27:45 Casey Muratori starts implementing an arena allocator.
+-->

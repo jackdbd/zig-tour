@@ -1,11 +1,13 @@
 ---
 layout: two-cols
 ---
-# Operator overloading
+# No operator overloading
 
-What does this Python code print?
+<Transform scale="0.75">
 
-<Transform :scale="0.75">
+<div>
+<p>What does this Python code print?</p>
+</div>
 
 ```python
 a = Foo(2)
@@ -56,11 +58,15 @@ Solution:
 
 # Why not?
 
+<Transform scale="0.75">
+
 Arguments in favor of / against operator overloading.
 
 - <Anchor href="https://github.com/ziglang/zig/issues/427" text="Proposal: Custom Operators / Infix Functions (issue #427)" />
 - <Anchor href="https://github.com/ziglang/zig/issues/871" text="Operator Overloading (issue #871)" />
-- <Anchor href="https://www.reddit.com/r/Zig/comments/fbt9rs/new_to_zig_i_had_some_questions_and_comments/" text="New to Zig. I had some questions and comments" />
+- <Anchor href="https://www.reddit.com/r/Zig/comments/fbt9rs/new_to_zig_i_had_some_questions_and_comments/" text="New to Zig. I had some questions and comments (r/Zig)" />
+
+</Transform>
 
 </v-click>
 

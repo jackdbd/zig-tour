@@ -30,7 +30,6 @@ lineNumbers: true
 presenter: true
 src: ./slides/intro.md
 theme: default
-# theme: seriph
 transition: slide-left
 ---
 
@@ -59,15 +58,31 @@ src: ./slides/zen.md
 ---
 
 ---
-src: ./slides/keywords.md
----
-
----
 src: ./slides/what-zig-leaves-out.md
 ---
 
 ---
-src: ./slides/operator-overloading.md
+src: ./slides/neither-gc-nor-arc.md
+---
+
+---
+src: ./slides/memory-allocation.md
+---
+
+---
+src: ./slides/memory-allocators.md
+---
+
+---
+src: ./slides/no-exceptions.md
+---
+
+---
+src: ./slides/no-string-type.md
+---
+
+---
+src: ./slides/no-operator-overloading.md
 ---
 
 ---
@@ -91,6 +106,14 @@ src: ./slides/error-handling-tips.md
 ---
 
 ---
+src: ./slides/syntax-intro.md
+---
+
+---
+src: ./slides/keywords.md
+---
+
+---
 src: ./slides/while-1.md
 ---
 
@@ -107,11 +130,27 @@ src: ./slides/for-2.md
 ---
 
 ---
-src: ./slides/comptime-defined-types.md
+src: ./slides/string-concatenation.md
 ---
 
 ---
-src: ./slides/dynamic-vs-static.md
+src: ./slides/arrays-vs-slices.md
+---
+
+---
+src: ./slides/comptime.md
+---
+
+---
+src: ./slides/comptime-generics.md
+---
+
+---
+src: ./slides/reflection.md
+---
+
+---
+src: ./slides/comptime-defined-types.md
 ---
 
 ---
@@ -183,18 +222,6 @@ src: ./slides/webassembly-demo.md
 ---
 
 ---
-src: ./slides/strings.md
----
-
----
-src: ./slides/string-concatenation.md
----
-
----
-src: ./slides/arrays-vs-slices.md
----
-
----
 src: ./slides/compilation-targets.md
 ---
 
@@ -211,41 +238,17 @@ src: ./slides/meme-cat.md
 ---
 
 ---
-src: ./slides/zigup.md
+src: ./slides/how-to-get-zig.md
 ---
 
 ---
-src: ./slides/setup-vscode.md
+src: ./slides/how-to-setup-vscode.md
 ---
 
 ---
-src: ./slides/using-libraries.md
+src: ./slides/how-to-use-libraries.md
 ---
 
 ---
-src: ./slides/memory-allocation.md
----
-
----
-src: ./slides/memory-allocator-interface.md
----
-
----
-src: ./slides/memory-allocators.md
----
-
----
-src: ./slides/comptime.md
----
-
----
-src: ./slides/reflection.md
----
-
----
-src: ./slides/how-do-i-learn-zig.md
----
-
----
-src: ./slides/outro.md
+src: ./slides/how-to-learn-zig.md
 ---

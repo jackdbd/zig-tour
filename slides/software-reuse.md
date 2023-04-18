@@ -1,6 +1,8 @@
 # How to solve software reuse?
 
-We need a (modern-day) lingua franca. Let's review a few key terms.
+<div>
+  <p>We need a (modern-day) lingua franca. Let's review a few key terms.</p>
+</div>
 
 <Citation
   citeHref="https://en.wikipedia.org/wiki/Application_binary_interface"

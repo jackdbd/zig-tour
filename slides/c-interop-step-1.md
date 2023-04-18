@@ -5,11 +5,13 @@ layout: default
 
 <Transform scale="0.85">
 
-Replace gcc with <Anchor href="https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html" text="zig cc" />:
+Replace <code class="inline-code">gcc</code> with <code class="inline-code">zig cc</code>:
 
 ```sh
 zig cc singular.c -lcairo -o cairo-svd
 ```
+
+See <Anchor href="https://andrewkelley.me/post/zig-cc-powerful-drop-in-replacement-gcc-clang.html" text="zig cc: a Powerful Drop-In Replacement for GCC/Clang" />.
 
 **But why?**
 

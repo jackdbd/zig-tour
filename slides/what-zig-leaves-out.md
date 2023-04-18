@@ -16,6 +16,24 @@ layout: cover
   </template>
 </Citation>
 
+<br>
+
+<Citation
+  author="Steve Jobs"
+  citeHref="https://youtu.be/H8eP99neOVs?t=91"
+  citeText="Apple's World Wide Developers Conference 1997">
+  <template v-slot:quote>
+    <p slot="quote">
+    <span>Focusing is about <span class="color:accent">saying no</span></span>.
+    </p>
+  </template>
+</Citation>
+
 <!--
 Let's see a couple of features that Zig purposely leaves out.
+
+- automatic memory management
+- operator overloading
+- exceptions
+- interfaces, polymorphism
 -->

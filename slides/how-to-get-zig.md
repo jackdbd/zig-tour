@@ -3,10 +3,9 @@ layout: default
 ---
 # How to get zig?
 
-<div>
-  <p>Download and manage zig compilers with <Anchor href="https://github.com/marler8997/zigup" text="zigup" alt="zigup repo on GitHub" />
-  </p>
-</div>
+<Transform scale="1">
+
+Download and manage zig compilers with <Anchor href="https://github.com/marler8997/zigup" text="zigup" alt="zigup repo on GitHub" />
 
 **Installation**
 
@@ -30,6 +29,8 @@ zigup default 0.10.1
 ```
 
 Double-check with <code class="inline-code">zig version</code>.
+
+</Transform>
 
 <!--
 Similar to nvm, volta or asdf

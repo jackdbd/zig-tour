@@ -1,6 +1,4 @@
-# comptime
-
-Example with generics
-
-Example with factorial, not fibonacci
-https://youtu.be/Gv2I7qTux7g?t=882
+---
+layout: cover
+---
+<h1><code class="inline-code">comptime</code></h1>
