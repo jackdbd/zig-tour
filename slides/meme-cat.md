@@ -2,7 +2,7 @@
 layout: center
 ---
 
-<img src="/cat-newspaper.jpg" class="" />
+<img src="/cat-newspaper.jpg" class="w-120" />
 
 <!--
 Cat should learn zig
