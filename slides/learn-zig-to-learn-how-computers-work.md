@@ -3,7 +3,7 @@ layout: default
 ---
 # Learn Zig to learn how computers work
 
-<Citation v-click
+<Citation
   author="A lot of people on the internet"
   citeText="Reddit, Twitter, etc">
   <template v-slot:quote>
@@ -13,7 +13,7 @@ layout: default
 
 <br>
 
-<Citation v-click
+<Citation
   author="Steve Klabnik"
   citeHref="https://steveklabnik.com/writing/should-you-learn-c-to-learn-how-the-computer-works"
   citeText='Should you learn C to "learn how the computer works"?"'>
