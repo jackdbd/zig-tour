@@ -5,11 +5,9 @@ layout: default
 
 <Transform scale="0.85">
 
-Often you don't <code class="inline-code">catch</code>. You simply <code class="inline-code">try</code>.
-
 The keyword <code class="inline-code">try</code> is a shortcut for <code class="inline-code">catch |err| return err</code>. That <code class="inline-code">|err|</code> is called <span class="color:accent">capture</span>.
 
-You <code class="inline-code">catch</code> only <span class="color:accent">when you can handle</span> the error.
+Often you don't <code class="inline-code">catch</code>. You simply <code class="inline-code">try</code>. You <code class="inline-code">catch</code> only <span class="color:accent">when you can handle</span> the error.
 
 If you have <span class="color:accent">no idea how to handle</span> a runtime error and/or <span class="color:accent">want to crash</span> the program, use <code class="inline-code">@panic</code>.
 

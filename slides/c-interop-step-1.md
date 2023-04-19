@@ -18,7 +18,7 @@ See <Anchor href="https://andrewkelley.me/post/zig-cc-powerful-drop-in-replaceme
 - artifact caching
 - cross compilation
 - pick the libc you want to use / can use
-- sane defaults (e.g. <code class="inline-code">-Wall</code> for warnings, <code class="inline-code">fsanitize=undefined</code> for undefined behavior sanitizer)
+- sane defaults (e.g. <code class="inline-code">-Wall</code> for warnings, <code class="inline-code">-fsanitize=undefined</code> for undefined behavior sanitizer)
 
 </Transform>
 

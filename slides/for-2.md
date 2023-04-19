@@ -60,9 +60,10 @@ debug: items is { 0, 1, 2 }
 
 <!--
 We can use a **capture** in a `for` loop. If the captured value is null, the for exits automatically.
+
 We can use a first capture for the value, and a second capture for its index.
 
-`for` is an expression, like `while`
-`for` can be labeled, like `while`
-`for` can have a `inline` keyword, like `while`
+- `for` is an expression, like `while`
+- `for` can be labeled, like `while`
+- `for` can have a `inline` keyword, like `while`
 -->

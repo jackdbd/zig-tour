@@ -30,7 +30,7 @@ Try not to binge watch them. 😅
 </Transform>
 
 <!--
-You learn Zig like you learn any other language: by writing it and reading good libraries.
+You learn Zig like you learn any other language: by writing it and reading the code of good libraries.
 
-All talks are good. It's like you are watching the nth intro tutorial on a new JS framework.
+All talks are good. It's not like you are watching the nth intro tutorial on a new JS framework.
 -->

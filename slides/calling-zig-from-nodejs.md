@@ -14,7 +14,6 @@ ABI stable across versions, backward/forward compatibility.
 - <Anchor href="https://nodejs.org/api/wasi.html" text="lib/wasi.js" /> (Node.js WebAssembly System Interface, WASI)
 
 <!--
-🥇 👍
 There are three options for implementing addons: Node-API, nan, or direct use of internal V8, libuv, and Node.js libraries. Unless there is a need for direct access to functionality which is not exposed by Node-API, use Node-API. Refer to C/C++ addons with Node-API for more information on Node-API.
 
 Although Node-API provides an ABI stability guarantee, other parts of Node.js do not, and any external libraries used from the addon may not.

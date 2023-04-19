@@ -35,7 +35,7 @@ void draw (cairo_t *cr, int width, int height)
 
 Now <code class="inline-code">zig build</code> can successfully compile the project.
 
-💡 Watch <Anchor href="https://youtu.be/ySY_FlA7EvA" text="Understanding the Extern Keyword in C" /> if you need a refresher about <code class="inline-code">static</code> and c.
+💡 Watch <Anchor href="https://youtu.be/ySY_FlA7EvA" text="Understanding the Extern Keyword in C" /> if you need a refresher about <code class="inline-code">static</code> and <code class="inline-code">extern</code>.
 
 </Transform>
 

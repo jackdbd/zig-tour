@@ -81,8 +81,7 @@ debug: is 7 within [1, 5) ? false
 We can use a **capture** in a `while` loop. If the captured value is null, the while exits automatically.
 
 Maybe cite:
-- labeled while
-  https://ziglang.org/documentation/master/#Labeled-while
-- inline while
-  https://ziglang.org/documentation/master/#inline-while
+
+- `labeled while`: https://ziglang.org/documentation/master/#Labeled-while
+- `inline while`: https://ziglang.org/documentation/master/#inline-while
 -->

@@ -25,6 +25,7 @@ layout: two-cols
 - <Anchor href="https://github.com/zigimg/zigimg" text="zigimg" /> - library to create, process, read, write different image formats
 
 <!--
-Not in Zig, but related to systems level programming:
-x86-bare-metal-examples
+Not Zig-specific, but related to systems level programming in general:
+
+https://github.com/cirosantilli/x86-bare-metal-examples
 -->

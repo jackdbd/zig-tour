@@ -65,10 +65,11 @@ layout: default
 
 <!--
 Other languages have this number of keywords:
-C has 32
-C++ has 63?
-Java has 64
-JavaScript has 48?
-Python has 33
-Rust has ~50?
+
+- C has 32
+- C++ has 63?
+- Java has 64
+- JavaScript has 48?
+- Python has 33
+- Rust has ~50?
 -->

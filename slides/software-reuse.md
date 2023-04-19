@@ -32,12 +32,7 @@ A popular FFI is <Anchor
   alt="libffi repo on GitHub" />, which is used by Python (ctypes, cffi), Ruby, Haskell, etc.
 
 <!--
-Perche’ e’ importante che una ABI sia stabile?
-In mancanza di una ABI stabile, **tutte** le parti di un programma dovrebbero essere compilate con la **stessa versione** dello **stesso compiler** per avere la certezza che il programma compilato su un computer A sia equivalente al programma compilato sul computer B.
+Without a stable ABI, **all** parts of a program should be compiled with the **same version** of the **same compiler** to be sure that the program compiled on computer A is equivalent to the program compiled on computer B.
 
-Dato che questa cosa e’ impossibile, avere una ABI stabile delle varie librerie usate da quel programma, del compiler usato per compilare quel programma, e dei sistemi operativi su cui viene eseguito quel programma, da’ una **ragionevole** certezza che quel programma funzionera’ allo stesso modo sul computer A e sul computer B.
-
-Nota che si tratta di una **ragionevole** certezza, e non di una certezza assoluta, perche’ stabilire una ABI e’ come stabilire una versione per la tua applicazione/libreria. Gli autori possono anche fare del loro meglio per non rompere la compatibilita’ da una versione all’altra, ma non possono avere la certezza matematica di non averla rotto in qualche punto.
-
-Direi che, se progetti una libreria, piu’ low level features usi, piu’ e’ difficile essere sicuri di non aver rotto la compatibilita’ da qualche parte. Ad esempio se il compiler che usi cambia leggermente le ottimizzazioni che fa sul tuo codice e le tue data structures, ho paura che ci sia il rischio di rompere la ABI anche se ci sei stato attento.
+With a stable ABI, we can be **reasonably** sure that the program compiled on computer A will run on computer B.
 -->

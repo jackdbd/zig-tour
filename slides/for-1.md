@@ -1,7 +1,7 @@
 ---
 layout: two-cols
 ---
-<h1>capture value and index</h1>
+<h1>Capture value and index</h1>
 
 <Transform scale="0.85">
 
@@ -73,14 +73,15 @@ debug: sum is 9
 We can use a **capture** in a `for` loop. If the captured value is null, the for exits automatically.
 We can use a first capture for the value, and a second capture for its index.
 
-`for` is an expression, like `while`
-`for` can be labeled, like `while`
-`for` can have a `inline` keyword, like `while`
+- `for` is an expression, like `while`
+- `for` can be labeled, like `while`
+- `for` can have a `inline` keyword, like `while`
 
 In the example with `typeNameLength`:
-f32 has length 3
-i8 has length 2
-bool has length 4
 
-The capture value (n) and iterator value (nums) of inlined for loops are compile-time known.
+- f32 has length 3
+- i8 has length 2
+- bool has length 4
+
+The capture value (n) and iterator value (nums) of inlined for loops are **compile-time** known.
 -->

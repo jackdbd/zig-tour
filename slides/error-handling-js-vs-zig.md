@@ -73,13 +73,12 @@ pub fn main() void {
 <!--
 If we throw undefined, then in the catch ex.message throws a TypeError. So it's the worst.
 
-We don't know what we caught. That's why in TypeScript we have catch(e: any) and not catch(e: Error | SomeOtherError)
+We don't know what we caught. That's why in TypeScript we have:
+- `catch(e: any)` and not
+- `catch(e: Error | SomeOtherError)`
 
-isNumInRange(5) prints true
-isNumInRange(9) prints false
+- `isNumInRange(5)` prints true
+- `isNumInRange(9)` prints false
 
 The labeled block that starts with blk: nd ends with :blk is necessary because we have to return a value to be assigned to `b` (a boolean in this case), and we can't use `return` because we are still in the same function.
-
-Cosa cambia da una applicazione e una libreria? Lo user.
-Ecco perche' exceptions + un global catch all vanno bene in una web app.
 -->

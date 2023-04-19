@@ -46,8 +46,9 @@ gcc singular.c -lm -lcairo -o singular
 </Transform>
 
 <!--
-In gcc:
--lm: links the math library
--lcairo: links the cairo library
--Wall: turns on all warnings (but it's not set by default)
+In the gcc command:
+
+- -lm: links the math library
+- -lcairo: links the cairo library
+- -Wall: turns on all warnings (but it's not set by default)
 -->
