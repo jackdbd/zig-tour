@@ -74,10 +74,6 @@ src: ./slides/memory-allocators.md
 ---
 
 ---
-src: ./slides/no-exceptions.md
----
-
----
 src: ./slides/no-string-type.md
 ---
 
@@ -87,6 +83,10 @@ src: ./slides/string-concatenation.md
 
 ---
 src: ./slides/no-operator-overloading.md
+---
+
+---
+src: ./slides/no-exceptions.md
 ---
 
 ---
