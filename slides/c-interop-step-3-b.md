@@ -14,7 +14,7 @@ const std = @import("std");
 const c = @import("c.zig");
 
 // The draw function is defined in singular.c, not here in singular.zig
-pub extern "c" fn draw(cr: *c.struct__cairo, width: usize, height: usize) void;
+extern "c" fn draw(cr: *c.struct__cairo, width: usize, height: usize) void;
 
 pub fn main() !void {
     const width = 400;
@@ -27,7 +27,10 @@ pub fn main() !void {
 }
 ```
 
-<code class="inline-code">extern</code> can be used to declare a function or variable that will be **resolved at link time**, when linking statically or at runtime, when linking dynamically.
+<code class="inline-code">extern</code> can be used to declare a function or variable that will be resolved:
+
+- at link time, when linking statically
+- at runtime, when linking dynamically
 
 </Transform>
 

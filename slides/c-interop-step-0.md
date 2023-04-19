@@ -40,7 +40,7 @@ int main (int argc, char *argv[])
 We are compiling <code class="inline-code">singular.c</code> using gcc:
 
 ```sh
-gcc singular.c -Wall -lm -lcairo -o singular
+gcc singular.c -lm -lcairo -o singular
 ```
 
 </Transform>
@@ -49,4 +49,5 @@ gcc singular.c -Wall -lm -lcairo -o singular
 In gcc:
 -lm: links the math library
 -lcairo: links the cairo library
+-Wall: turns on all warnings (but it's not set by default)
 -->

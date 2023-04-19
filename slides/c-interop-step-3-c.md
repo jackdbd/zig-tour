@@ -22,7 +22,7 @@ pub fn build(b: *Build) void {
 
     exe.linkSystemLibrary("c");
     exe.linkSystemLibrary("cairo");
-    exe.addCSourceFile("cairo-svd.c", &[_][]const u8{});
+    exe.addCSourceFile("cairo-singular.c", &[_][]const u8{});
     exe.install();
 
     const run_cmd = exe.run();

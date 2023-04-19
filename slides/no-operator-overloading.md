@@ -3,7 +3,7 @@ layout: two-cols
 ---
 # No operator overloading
 
-<Transform scale="0.75">
+<Transform scale="0.85">
 
 <div>
 <p>What does this Python code print?</p>
@@ -12,7 +12,6 @@ layout: two-cols
 ```python
 a = Foo(2)
 b = Bar(3)
-
 print(a + b)
 print(b + a)
 ```
@@ -21,18 +20,16 @@ print(b + a)
 
 We need to know what <code class="inline-code">+</code> <span class="color:accent">means</span> for <code class="inline-code">a</code> and <code class="inline-code">b</code>.
 
-```python {5-6,12-13|all}
+```python {4-5,10-11|all}
 class Foo(object):
     def __init__(self, n):
         self.n = n
-
     def __add__(self, other):
         return self.n + other.n
 
 class Bar(object):
     def __init__(self, n):
         self.n = n
-
     def __add__(self, other):
         return self.n - other.n
 ```
@@ -58,7 +55,7 @@ Solution:
 
 # Why not?
 
-<Transform scale="0.75">
+<Transform scale="0.85">
 
 Arguments in favor of / against operator overloading.
 

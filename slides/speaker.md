@@ -6,8 +6,9 @@ layout: intro
 
 <div class="leading-8 opacity-80">
 Freelance full stack developer<br>
-<!-- I ❤️ TypeScript / Clojure / Zig<br> -->
-<!-- I care about Web Performance ⚡<br> -->
+I like TypeScript / Clojure / Zig<br>
+I tried (almost) all JavaScript frameworks<br>
+I care about Web Performance<br>
 </div>
 
 <div class="my-10 grid grid-cols-[40px_1fr] w-min gap-y-4">
@@ -19,4 +20,17 @@ Freelance full stack developer<br>
   <div><a href="https://www.giacomodebidda.com/" target="_blank">giacomodebidda.com</a></div>
 </div>
 
-<!-- <img src="https://antfu.me/avatar.png" class="rounded-full w-40 abs-tr mt-16 mr-12"/> -->
+<img src="/avatar.jpg" class="rounded-full w-40 abs-tr mt-16 mr-12" />
+
+<!--
+I haven't tried Angular, but I'm not eager to do it.
+
+I tried:
+- Cycle.js
+- Marko.js
+- Mithril.js
+
+I care about Web Performance (that's why I tend to avoid them if possible and use 11ty).
+
+It's ironic since this presentation is really heavy (but I didn't have much time to optimize it)
+-->

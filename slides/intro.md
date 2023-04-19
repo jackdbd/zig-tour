@@ -1,13 +1,14 @@
 ---
 layout: cover
 ---
-<h1 class="">A <span class="color:zig">tour</span> of Zig <ZigLogo /></h1>
+<h1>
+A <span class="color:zig">tour</span> of Zig <ZigLogo />
+</h1>
 
-<!-- Add image here, contacts, URLs, etc -->
-
-<!-- https://demo.sli.dev/composable-vue/1 -->
-
-<!-- <Toc columns=2 /> -->
+- <Anchor href="https://zig-tour.vercel.app/" text="https://zig-tour.vercel.app/" />
+- <Anchor href="https://github.com/jackdbd/zig-tour" text="https://github.com/jackdbd/zig-tour" />
+- <Anchor href="https://raw.githubusercontent.com/jackdbd/zig-tour/main/assets/zig-tour.pdf" text="https://raw.githubusercontent.com/jackdbd/zig-tour/main/assets/zig-tour.pdf" />
+- <Anchor href="https://github.com/jackdbd/zig-demos" text="https://github.com/jackdbd/zig-demos" />
 
 <!--
 My notes...

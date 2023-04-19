@@ -82,6 +82,10 @@ src: ./slides/no-string-type.md
 ---
 
 ---
+src: ./slides/string-concatenation.md
+---
+
+---
 src: ./slides/no-operator-overloading.md
 ---
 
@@ -127,14 +131,6 @@ src: ./slides/for-1.md
 
 ---
 src: ./slides/for-2.md
----
-
----
-src: ./slides/string-concatenation.md
----
-
----
-src: ./slides/arrays-vs-slices.md
 ---
 
 ---
