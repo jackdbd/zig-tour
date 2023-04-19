@@ -1,8 +1,8 @@
 # How to solve software reuse?
 
-<div>
-  <p>We need a (modern-day) lingua franca. Let's review a few key terms.</p>
-</div>
+<Transform scale="1">
+
+<p>Let's review a few key terms.</p>
 
 <Citation
   citeHref="https://en.wikipedia.org/wiki/Application_binary_interface"
@@ -30,6 +30,8 @@ A popular FFI is <Anchor
   href="https://github.com/libffi/libffi" 
   text="libffi/libffi" 
   alt="libffi repo on GitHub" />, which is used by Python (ctypes, cffi), Ruby, Haskell, etc.
+
+</Transform>
 
 <!--
 Without a stable ABI, **all** parts of a program should be compiled with the **same version** of the **same compiler** to be sure that the program compiled on computer A is equivalent to the program compiled on computer B.

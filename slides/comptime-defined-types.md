@@ -5,7 +5,7 @@ layout: default
 
 <Transform scale="0.85">
 
-```text
+```text {all|4}
 const std = @import("std");
 
 pub fn main() void {

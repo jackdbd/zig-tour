@@ -17,7 +17,7 @@ If <code class="inline-code">way_too_many_characters</code> is <span class="colo
 
 If <code class="inline-code">way_too_many_characters</code> is <span class="color:accent">runtime</span> known, we <code class="inline-code">try</code> to allocate (and handle allocation failure).
 
-```text
+```text {all|12-13}
 const std = @import("std");
 
 pub fn main() !void {
@@ -26,8 +26,8 @@ pub fn main() !void {
 
     const allocator = gpa.allocator();
 
-    // let's say way_too_many_characters depends on the content of a file, or
-    // from a user's input. So it's runtime known.
+    // Let's say way_too_many_characters depends on the content of a file,
+    // or from the user's input. So it's runtime known.
 
     const s = try std.fmt.allocPrint(allocator, "foo {s} bar", .{ way_too_many_characters });
     defer allocator.free(s);

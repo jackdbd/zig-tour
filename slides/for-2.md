@@ -44,14 +44,14 @@ pub fn main() void {
 ```sh
 debug: items is { -1, 0, 1 }
 
-debug: value has type *i32 and is i32@7ffe311feadc
-debug: value.* has type i32 and is -1
+debug: val has type *i32 and is i32@7ffe311feadc
+debug: val.* has type i32 and is -1
 
-debug: value has type *i32 and is i32@7ffe311feae0
-debug: value.* has type i32 and is 0
+debug: val has type *i32 and is i32@7ffe311feae0
+debug: val.* has type i32 and is 0
 
-debug: value has type *i32 and is i32@7ffe311feae4
-debug: value.* has type i32 and is 1
+debug: val has type *i32 and is i32@7ffe311feae4
+debug: val.* has type i32 and is 1
 
 debug: items is { 0, 1, 2 }
 ```

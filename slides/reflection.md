@@ -5,7 +5,7 @@ layout: default
 
 <Transform scale="0.75">
 
-```text {all|13|16-19|all}
+```text
 // demo-reflection.zig
 const std = @import("std");
 
