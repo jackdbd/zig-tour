@@ -222,11 +222,11 @@ src: ./slides/comptime-generics.md
 ---
 
 ---
-src: ./slides/reflection.md
+src: ./slides/comptime-defined-types.md
 ---
 
 ---
-src: ./slides/comptime-defined-types.md
+src: ./slides/reflection.md
 ---
 
 ---
