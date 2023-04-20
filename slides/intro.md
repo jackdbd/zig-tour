@@ -11,5 +11,12 @@ A <span class="color:zig">tour</span> of Zig <ZigLogo />
 - <Anchor href="https://github.com/jackdbd/zig-demos" text="https://github.com/jackdbd/zig-demos" />
 
 <!--
-My notes...
+In this presentation we will talk about:
+1. Features that Zig has.
+1. Features that Zig decides to leave out of the language, and why.
+1. How to do memory management in Zig.
+1. How to do error handling in Zig.
+1. How to integrate Zig in existing projects.
+
+Finally, we will show  few snippets of Zig code and discuss how to learn/practice this language.
 -->

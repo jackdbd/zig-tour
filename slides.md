@@ -110,46 +110,6 @@ src: ./slides/error-handling-tips.md
 ---
 
 ---
-src: ./slides/syntax-intro.md
----
-
----
-src: ./slides/keywords.md
----
-
----
-src: ./slides/while-1.md
----
-
----
-src: ./slides/while-2.md
----
-
----
-src: ./slides/for-1.md
----
-
----
-src: ./slides/for-2.md
----
-
----
-src: ./slides/comptime.md
----
-
----
-src: ./slides/comptime-generics.md
----
-
----
-src: ./slides/reflection.md
----
-
----
-src: ./slides/comptime-defined-types.md
----
-
----
 src: ./slides/software-reuse.md
 ---
 
@@ -227,6 +187,46 @@ src: ./slides/build-modes.md
 
 ---
 src: ./slides/cool-projects.md
+---
+
+---
+src: ./slides/syntax-intro.md
+---
+
+---
+src: ./slides/keywords.md
+---
+
+---
+src: ./slides/while-1.md
+---
+
+---
+src: ./slides/while-2.md
+---
+
+---
+src: ./slides/for-1.md
+---
+
+---
+src: ./slides/for-2.md
+---
+
+---
+src: ./slides/comptime.md
+---
+
+---
+src: ./slides/comptime-generics.md
+---
+
+---
+src: ./slides/reflection.md
+---
+
+---
+src: ./slides/comptime-defined-types.md
 ---
 
 ---

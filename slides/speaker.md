@@ -30,7 +30,7 @@ I tried:
 - Marko.js
 - Mithril.js
 
-I care about Web Performance (that's why I tend to avoid them if possible and use 11ty).
+I care about Web Performance (that's why I tend to avoid JS frameworks if possible, and use 11ty instead).
 
 It's ironic since this presentation is really heavy (but I didn't have much time to optimize it)
 -->
