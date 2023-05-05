@@ -4,13 +4,9 @@ An introduction to the Zig programming language and toolchain.
 
 I gave this talk at [pisa.dev](https://pisa.dev/).
 
-Watch the presentation:
-
-https://zig-tour.vercel.app/
-
-Download the presentation as PDF:
-
-https://raw.githubusercontent.com/jackdbd/zig-tour/main/assets/zig-tour.pdf
+- 🌐 https://zig-tour.vercel.app/
+- 📺 https://www.youtube.com/live/Fe1xDUh6dYs
+- 🗎 https://raw.githubusercontent.com/jackdbd/zig-tour/main/assets/zig-tour.pdf
 
 ## Installation
 
